@@ -1,0 +1,26 @@
+pub const VALID_SYMBOLS: [&str; 19] = [
+    "{", "}", "(", ")", "[", "]", ".", ",", ";", "+", "-", "*", "/", "&", "|", "<", ">", "=", "~",
+];
+pub const VALID_KEYWORDS: [&str; 21] = [
+    "class",
+    "constructor",
+    "function",
+    "method",
+    "field",
+    "static",
+    "var",
+    "int",
+    "char",
+    "boolean",
+    "void",
+    "true",
+    "false",
+    "null",
+    "this",
+    "let",
+    "do",
+    "if",
+    "else",
+    "while",
+    "return",
+];
